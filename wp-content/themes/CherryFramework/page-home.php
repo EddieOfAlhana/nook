@@ -15,7 +15,6 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="row">
-					UNDER CONSTRUCTION
 					<div class="span12" data-motopress-type="loop" data-motopress-loop-file="loop/loop-page.php">
 						<?php get_template_part("loop/loop-page"); ?>
 					</div>

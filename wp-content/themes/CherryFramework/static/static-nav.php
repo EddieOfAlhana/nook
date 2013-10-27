@@ -1,7 +1,7 @@
 <?php /* Static Name: Navigation */ ?>
 <!-- BEGIN MAIN NAVIGATION -->
 <nav class="nav nav__primary clearfix">
-<?php/* if (has_nav_menu('header_menu')) {
+<?php if (has_nav_menu('header_menu')) {
 	wp_nav_menu( array(
 		'container'      => 'ul',
 		'menu_class'     => 'sf-menu',
@@ -25,5 +25,5 @@
 			)
 		);
 	echo '</ul>';
-} */?>
+} ?>
 </nav><!-- END MAIN NAVIGATION -->
