@@ -17,8 +17,9 @@ get_header(); ?>
 		<div class="row">
 			<div class="span12" data-motopress-wrapper-file="page-home.php" data-motopress-wrapper-type="content">
 				<div class="row">
-					<div class="span3">
+					<div class="span3 picture-menu">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/home_1.jpg">
+						<a>Benefits of the programme</a>
 					</div>
 					<div class="span3">
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/home_2.jpg">

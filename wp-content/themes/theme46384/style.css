@@ -21,3 +21,9 @@
 	color:#4b4b4d;
 	font-weight:bold;
 }
+.picture-menu a:after {
+	content: "\f0a9";
+	color: #4d4d4d;
+	font-family: FontAwesome;
+	padding: 0 8px 0 1px;
+}
