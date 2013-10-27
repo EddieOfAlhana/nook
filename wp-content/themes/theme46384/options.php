@@ -112,7 +112,7 @@ if(!function_exists('optionsframework_options')) {
 
 			$options['menu_typography'] = array(
 								'id' => 'menu_typography',
-								'std' => array( 'size' => '13px', 'lineheight' => '18px', 'face' => 'Verdana', 'style' => 'normal', 'character'  => 'latin', 'color' => '#747474'));
+								'std' => array( 'size' => '13px', 'lineheight' => '18px', 'face' => 'Raleway', 'style' => 'normal', 'character'  => 'latin', 'color' => '#747474'));
 
 			$options['sf_delay'] = array(
 								"id" => "sf_delay",
