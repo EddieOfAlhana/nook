@@ -15,10 +15,3 @@
 		<?php get_template_part("static/static-search"); ?>
 	</div>
 </div>
-<div class="row">
-	<div class="span12">
-		<p class="main_title">
-			Programme for Tourism Investment Attraction in the Drava Eco-Region<br><br>(PIADER)
-		</p>
-	</div>
-</div>
