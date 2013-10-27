@@ -7,7 +7,7 @@ get_header(); ?>
 
 <div class="motopress-wrapper content-holder clearfix">
 	<div class="container">
-		<div class="row">
+		<div class="row" style="margin-bottom:25px">
 			<div class="span12">
 				<p class="main_title">
 					Programme for Tourism Investment Attraction in the Drava Eco-Region<br><br>(PIADER)
@@ -15,7 +15,7 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="row">
-			<div class="span12" data-motopress-wrapper-file="page-home.php" data-motopress-wrapper-type="content">
+			<div class="span12" data-motopress-wrapper-file="page-home.php" data-motopress-wrapper-type="content" style="text-align: center;">
 				<div class="row">
 					<div class="span3">
 						<div class="row">
