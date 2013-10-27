@@ -1,5 +1,4 @@
 <?php /* Static Name: Slider */ ?>
-<img src="http://suhanj.hardrockcoders.hu/img/handshake.png"/>
 <?php if(of_get_option('slider_type') != 'none_slider'){ ?>
 	<div id="slider-wrapper" class="slider">
 		<div class="container">
