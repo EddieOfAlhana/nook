@@ -1,0 +1,20 @@
+1  cd /var/www/nookofeurope.eu/
+    2  ls
+    3  mc
+    4  cd wp-includes/
+    5  ls
+    6  grep -R "motopress-wrapper header" ./
+    7  grep -R "motopress-wrapper header" ./
+    8  cd ..
+    9  ls
+   10  grep -R "motopress-wrapper header" ./
+   11  mcedit ./wp-content/themes/CherryFramework/header.php
+   12  mcedit ./wp-content/themes/CherryFramework/header.php
+   13  mcedit ./wp-content/themes/CherryFramework/page-home.php
+   14  mcedit ./wp-content/themes/CherryFramework/static/static-slider.php
+   15  mcedit ./wp-content/themes/CherryFramework/static/static-logo.php
+   16  mcedit ./wp-content/themes/CherryFramework/static/static-nav.php
+   17  mcedit ./wp-content/themes/CherryFramework/page.php
+   18  mcedit ./wp-content/themes/CherryFramework/page-home.php
+   19  history
+
