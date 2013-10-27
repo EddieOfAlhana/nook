@@ -1,4 +1,7 @@
 <?php
+require_once __DIR__.'FeatureChecker.php';
+$fc = new FeatureChecker();
+var_dump($fc->hasFeature('developer')); die();
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
  * wp-blog-header.php which does and tells WordPress to load the theme.
