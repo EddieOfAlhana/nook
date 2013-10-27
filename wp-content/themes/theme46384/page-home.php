@@ -23,19 +23,19 @@ get_header(); ?>
 							Benefits of the programme<br/>
 						</a>
 					</div>
-					<div class="span3">
+					<div class="span3 picture-menu">
 						<a href="/historic-baranya">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/home_2.jpg">
 							Historic Baranya<br/>
 						</a>
 					</div>
-					<div class="span3">
+					<div class="span3 picture-menu">
 						<a href="/tourism">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/home_3.jpg">
 							Tourism<br/>
 						</a>
 					</div>
-					<div class="span3">
+					<div class="span3 picture-menu">
 						<a href="/real-estates">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/home_4.jpg">
 							Tourism<br/>
