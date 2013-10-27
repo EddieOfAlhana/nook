@@ -48,15 +48,15 @@ if(!function_exists('optionsframework_options')) {
 								
 			$options['h1_heading'] = array(
 								'id' => 'h1_heading',
-								'std' => array( 'size' => '66px', 'lineheight' => '70px', 'face' => 'Raleway', 'style' => 'normal', 'character'  => 'latin', 'color' => '#747474'));
+								'std' => array( 'size' => '66px', 'lineheight' => '70px', 'face' => 'Verdana', 'style' => 'normal', 'character'  => 'latin', 'color' => '#747474'));
 			
 			$options['h2_heading'] = array(
 								'id' => 'h2_heading',
-								'std' => array( 'size' => '25px', 'lineheight' => '30px', 'face' => 'Raleway', 'style' => 'normal', 'character'  => 'latin', 'color' => '#747474'));
+								'std' => array( 'size' => '25px', 'lineheight' => '30px', 'face' => 'Verdana', 'style' => 'normal', 'character'  => 'latin', 'color' => '#747474'));
 								
 			$options['h3_heading'] = array(
 								'id' => 'h3_heading',
-								'std' => array( 'size' => '16px', 'lineheight' => '20px', 'face' => 'Raleway', 'style' => 'normal', 'character'  => 'latin', 'color' => '#747474'));
+								'std' => array( 'size' => '16px', 'lineheight' => '20px', 'face' => 'Verdana', 'style' => 'normal', 'character'  => 'latin', 'color' => '#747474'));
 			
 			$options['h4_heading'] = array(
 								'id' => 'h4_heading',
@@ -112,7 +112,7 @@ if(!function_exists('optionsframework_options')) {
 
 			$options['menu_typography'] = array(
 								'id' => 'menu_typography',
-								'std' => array( 'size' => '13px', 'lineheight' => '18px', 'face' => 'Raleway', 'style' => 'normal', 'character'  => 'latin', 'color' => '#747474'));
+								'std' => array( 'size' => '13px', 'lineheight' => '18px', 'face' => 'Verdana', 'style' => 'normal', 'character'  => 'latin', 'color' => '#747474'));
 
 			$options['sf_delay'] = array(
 								"id" => "sf_delay",

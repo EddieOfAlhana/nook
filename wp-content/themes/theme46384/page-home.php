@@ -9,7 +9,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="span12">
-				<p style="text-align:center;font-size:22px;color:#4b4b4d; font-weight:bold;">
+				<p class="main_title">
 					Programme for Tourism Investment Attraction in the Drava Eco-Region<br><br>(PIADER)
 				</p>
 			</div>

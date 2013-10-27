@@ -14,3 +14,10 @@
 	Please, You may put custom css here
 ---------------------------------------- */
 .sf-menu {float:none;}
+
+.main_title {
+	text-align:center;
+	font-size:22px;
+	color:#4b4b4d;
+	font-weight:bold;
+}
