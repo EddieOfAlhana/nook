@@ -1,5 +1,5 @@
 <?php /* Static Name: Footer text */ ?>
-<div id="footer-text" class="footer-text">
+<!--div id="footer-text" class="footer-text">
 	<?php $myfooter_text = of_get_option('footer_text'); ?>
 	
 	<?php if($myfooter_text){?>
@@ -10,4 +10,4 @@
 	<?php if( is_front_page() ) { ?>
 		<!-- {%FOOTER_LINK} -->
 	<?php } ?>
-</div>
+</div-->
