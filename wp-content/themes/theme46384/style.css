@@ -21,7 +21,7 @@
 	color:#4b4b4d;
 	font-weight:bold;
 }
-.picture-menu a:after {
+a.arrow-after:after {
 	content: "\f0a9";
 	color: #4d4d4d;
 	font-family: FontAwesome;
