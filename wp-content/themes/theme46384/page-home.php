@@ -38,7 +38,7 @@ get_header(); ?>
 					<div class="span3 picture-menu">
 						<a href="/real-estates">
 							<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/home_4.jpg">
-							Tourism<br/>
+							Real Estates<br/>
 						</a>
 					</div>
 				</div>
