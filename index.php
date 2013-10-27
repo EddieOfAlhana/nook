@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__.'FeatureChecker.php';
+require_once __DIR__.'/FeatureChecker.php';
 $fc = new FeatureChecker();
 var_dump($fc->hasFeature('developer')); die();
 /**
