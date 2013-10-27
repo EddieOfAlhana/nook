@@ -2,7 +2,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="span12" data-motopress-wrapper-file="wrapper/wrapper-footer.php" data-motopress-wrapper-type="footer" data-motopress-id="<?php echo uniqid() ?>">
-						<?php get_template_part('wrapper/wrapper-footer'); ?>
+						<div class="span6">
+							<span><img src="http://www.nookofeurope.eu/wp-content/themes/theme46384/images/icons/flag-eu.png"/></span>
+							<span>The project is co-financed by the Euopean Union through the<br> Hungary-Croatia IPA Cross-border Co-operation Programme</span>
+						</div>
+						<div class="span6" style="text-align:right">
+							<img src="http://www.nookofeurope.eu/wp-content/themes/theme46384/images/nookofeurope-logo.jpg"/>
+						</div>
+						<?php //get_template_part('wrapper/wrapper-footer'); ?>
 					</div>
 				</div>
 			</div>
