@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__.'/FeatureChecker.php';
 $fc = new FeatureChecker();
-if ($fc->hasFeature('developer')) {
+if ($fc->hasFeature('enter')) {
 
     /**
      * Front to the WordPress application. This file doesn't do anything, but loads
