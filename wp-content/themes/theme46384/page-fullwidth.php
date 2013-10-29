@@ -16,6 +16,11 @@ get_header(); ?>
 						</p>
 					</div>
 				</div>
+				<div class="row">
+					<div class="span12" data-motopress-type="static" data-motopress-static-file="static/static-title.php">
+						<?php get_template_part("static/static-title"); ?>
+					</div>
+				</div>
 				<div id="content" class="row">
 					<div class="span12" data-motopress-type="loop" data-motopress-loop-file="loop/loop-page.php">
 						<?php get_template_part("loop/loop-page"); ?>
