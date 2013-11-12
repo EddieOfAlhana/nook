@@ -27,7 +27,7 @@ p { margin:0 0 20px; }
 }
 .header {
 	padding:0;
-	margin:100px 0 0;
+	margin:20px 0 0;
 	background:none;
 	border:none;
 }
@@ -546,7 +546,7 @@ a.thumbnail:hover {
 .footer nav.footer-nav {
 	margin:30px 0 0;
 	float:none;
-	text-align:center;
+	text-align:left;
 }
 .footer nav.footer-nav ul {
 	display:inline-block;
