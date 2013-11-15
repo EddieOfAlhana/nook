@@ -1,0 +1,11 @@
+{
+    "name": "hardrockcoders/nookofeurope",
+    "description": "Nook of Europe  page",
+    "minimum-stability": "dev",
+    "require": {
+        "phpoffice/phpexcel": "1.7.9"
+    }
+    "require-dev": {
+	    "codeception/codeception": "1.8.*@dev"
+    }
+}
