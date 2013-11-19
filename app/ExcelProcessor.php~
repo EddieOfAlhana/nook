@@ -34,7 +34,7 @@ class ExcelProcessor
 
 	protected function processStake($worksheet) {
 		if ('STAKE' !== $worksheet->getTitle()) return;
-		Db::getInstance()->truncate('excel_stake');			
+			
 		foreach ($worksheet->getRowIterator() as $row) {
 			$rowArray = [];
 			$cellIterator = $row->getCellIterator();

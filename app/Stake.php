@@ -1,0 +1,21 @@
+<?php
+
+class Stake 
+{
+	public $name;
+	public $country;
+	public $authority;
+	public $type;
+	public $profile;
+	public $activities;
+	public $long;
+	public $latt;
+	public $director;
+	public $contact_name;
+	public $contact_role;
+	public $contact_address;
+	public $contact_phone;
+	public $contact_mail;
+	public $description;
+	public $notes;
+}

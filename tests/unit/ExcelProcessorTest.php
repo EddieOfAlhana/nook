@@ -13,31 +13,8 @@ class ExcelProcessorTest extends \PHPUnit_Framework_TestCase
     // tests
     public function testExcelProcessor()
     {
-	    $ep = new PHPExcel();
-	    $inputFileName = __DIR__ . '/../../app/storage/piader.xls';
-	    /**  Identify the type of $inputFileName  **/
-	    $inputFileType = PHPExcel_IOFactory::identify($inputFileName);
-	    /**  Create a new Reader of the type that has been identified  **/
-	    $objReader = PHPExcel_IOFactory::createReader($inputFileType);
-	    /**  Load $inputFileName to a PHPExcel Object  **/
-	    $objPHPExcel = $objReader->load($inputFileName);
-	    $this->assertInstanceOf('PHPExcel', $objPHPExcel);
-	    $worksheetNames = $objReader->listWorksheetNames($inputFileName);
-	    $worksheetData = $objReader->listWorksheetInfo($inputFileName);
-	    foreach ($objPHPExcel->getWorksheetIterator() as $worksheet) {
-		    echo 'Worksheet - ' , $worksheet->getTitle() , PHP_EOL;
-		    foreach ($worksheet->getRowIterator() as $row) {
-			    echo '    Row number - ' , $row->getRowIndex() , PHP_EOL;
-			    $cellIterator = $row->getCellIterator();
-			    $cellIterator->setIterateOnlyExistingCells(true); // Loop all cells, even if it is not set
-			    foreach ($cellIterator as $cell) {
-				    if (!is_null($cell)) {
-					    echo '        Cell - ' , $cell->getCoordinate() , ' - ' , $cell->getCalculatedValue() , PHP_EOL;
-				    }
-			    }
-		    }
-	    }
-	    die();
+	    $ep = new ExcelProcessor();
+	    $ep->process();
     }
 
 }

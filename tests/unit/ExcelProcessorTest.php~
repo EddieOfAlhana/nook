@@ -29,7 +29,7 @@ class ExcelProcessorTest extends \PHPUnit_Framework_TestCase
 		    foreach ($worksheet->getRowIterator() as $row) {
 			    echo '    Row number - ' , $row->getRowIndex() , PHP_EOL;
 			    $cellIterator = $row->getCellIterator();
-			    $cellIterator->setIterateOnlyExistingCells(false); // Loop all cells, even if it is not set
+			    $cellIterator->setIterateOnlyExistingCells(true); // Loop all cells, even if it is not set
 			    foreach ($cellIterator as $cell) {
 				    if (!is_null($cell)) {
 					    echo '        Cell - ' , $cell->getCoordinate() , ' - ' , $cell->getCalculatedValue() , PHP_EOL;
