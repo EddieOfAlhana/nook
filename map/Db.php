@@ -32,6 +32,12 @@ class Db
 	        $this->connection->real_query('INSERT INTO '.$table.' ('.$cols.') VALUES ('.$vals.')');
 	}
 
+    public function saveZone($zone) 
+    {
+        $zoneArray = (array)$zone;
+        $this->storeArray($zoneArray, 'excel_zone', $this->connection);
+    }
+
 	public function truncate ($table) 
 	{
 		$this->connection->real_query('TRUNCATE TABLE ' . $table  . ';');
@@ -41,5 +47,10 @@ class Db
 		$result = $this->connection->query('SELECT * FROM excel_stake');
 		return $result->fetch_all(MYSQLI_ASSOC);
 	}
+
+    public function getZones() {
+        $result = $this->connection->query('SELECT * FROM excel_zone');
+        return $result->fetch_all(MYSQLI_ASSOC);
+    }
 }
 

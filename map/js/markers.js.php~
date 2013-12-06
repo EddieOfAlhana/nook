@@ -1,5 +1,4 @@
 <?php
-header('Content-type: application/javascript');
 require_once(__DIR__. '/../../vendor/autoload.php');
 $db = Db::getInstance();
 $pois = $db->getStakes();

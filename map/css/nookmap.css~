@@ -1,0 +1,11 @@
+#filter-panel {	
+	position: absolute;
+	right: 100px;
+	top: 100px;
+	min-height: 400px;
+	width: 230px;
+	z-index: 5;
+}
+.panel-body {
+	padding: 5px;
+}
