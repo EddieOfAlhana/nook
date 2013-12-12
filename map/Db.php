@@ -43,13 +43,34 @@ class Db
 		$this->connection->real_query('TRUNCATE TABLE ' . $table  . ';');
 	}
 
-	public function getStakes() {
-		$result = $this->connection->query('SELECT * FROM excel_stake');
+	public function getStakes(array $type, array $country) {
+        if(!in_array('stake', $type)) {
+            return [];
+        }
+        $countries = [];
+        if (in_array('hu', $country)) {
+            $countries[] = '"Magyarország"';
+        }
+        if (in_array('cr', $country)) {
+            $countries[] = '"Horvátország"'; 
+        }
+        $result = $this->connection->query('SELECT * FROM excel_stake WHERE country IN ('. implode(', ', $countries) . ')');
 		return $result->fetch_all(MYSQLI_ASSOC);
 	}
 
-    public function getZones() {
-        $result = $this->connection->query('SELECT * FROM excel_zone');
+    public function getZones(array $type, array $country) {
+        if(!in_array('zone', $type)) {
+            return [];
+        }
+        $countries = [];
+        if (in_array('hu', $country)) {
+            $countries[] = '"Magyarország"';
+        }
+        if (in_array('cr', $country)) {
+            $countries[] = '"Horvátország"'; 
+        }
+
+        $result = $this->connection->query('SELECT * FROM excel_zone WHERE country IN ('. implode(', ', $countries) . ')');
         return $result->fetch_all(MYSQLI_ASSOC);
     }
 }

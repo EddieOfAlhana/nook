@@ -5,4 +5,5 @@
 	min-height: 400px;
 	width: 230px;
 	z-index: 5;
+	cursor: move;
 }

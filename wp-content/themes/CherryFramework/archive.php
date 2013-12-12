@@ -6,7 +6,7 @@
 			<div class="span12" data-motopress-wrapper-file="archive.php" data-motopress-wrapper-type="content">
 				<div class="row">
 					<div class="span12" data-motopress-type="static" data-motopress-static-file="static/static-title.php">
-						<?php get_template_part("static/static-title"); ?>
+						<?php //get_template_part("static/static-title"); ?>
 					</div>
 				</div>
 				<div class="row">

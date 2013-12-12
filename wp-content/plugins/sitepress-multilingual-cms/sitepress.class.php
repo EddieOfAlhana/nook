@@ -2745,7 +2745,6 @@ class SitePress{
 
     function save_post_actions($pidd, $post){
         global $wpdb;
-
 		wp_defer_term_counting( true );
 
         list($post_type, $post_status) = $wpdb->get_row("SELECT post_type, post_status FROM {$wpdb->posts} WHERE ID = " . $pidd, ARRAY_N);

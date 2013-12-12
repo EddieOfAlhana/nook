@@ -20,6 +20,7 @@ if ( !function_exists('pagelist_unqprfx_add_stylesheet') ) {
 $pagelist_unqprfx_powered_line = "\n".'<!-- Page-list plugin v.4.2 wordpress.org/plugins/page-list/ -->'."\n";
 
 
+
 if ( !function_exists('pagelist_unqprfx_shortcode') ) {
 	function pagelist_unqprfx_shortcode( $atts ) {
 		global $post, $pagelist_unqprfx_powered_line;

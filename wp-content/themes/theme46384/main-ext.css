@@ -1,0 +1,57 @@
+#mainpageStuff {
+    position: relative;
+}
+#mainpageStuff img {
+    width: 180px;
+    height: 257px;
+}
+
+
+#mainpageStuff .span2 {
+    border: 1px solid #858585;
+    border-radius: 5px;
+    margin-left: 19px;
+    width: 179px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#mainpageStuff .span2 .row {
+    #margin-left: 10px;;
+    width: 200px;
+    padding-left: 20px;
+}
+
+#mainpageStuff .mainPageMenuHover {
+    position: absolute;
+    display:none;
+    width: 389px;
+    height:600px;
+    background: url('images/logo_bg.png') no-repeat;
+    z-index: -10;
+}
+
+#mapMain {
+    display :none;
+}
+
+#mapToggle {
+    cursor: pointer;
+}
+
+.header >.container {
+    border-bottom: none;
+}
+
+.footer >.container {
+    border-top: none;
+    z-index: -15;
+}
+
+.footer nav.footer-nav {
+    text-align:left;
+}
+
+.footer .footerNavSpan {
+    margin-left:0px;
+}

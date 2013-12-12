@@ -4,7 +4,7 @@
 */
 ?>
 
-<?php if ( ! dynamic_sidebar( theme_locals("sidebar") )) : ?>
+<?php  if ( ! dynamic_sidebar( theme_locals("sidebar") )) : ?>
 	<div id="sidebar-search" class="widget">
 		<?php echo '<h3>' . theme_locals("search") . '</h3>'; ?>
 		<?php get_search_form(); ?> <!-- outputs the default Wordpress search form-->
@@ -30,4 +30,4 @@
 			<?php wp_meta(); ?>
 		</ul>
 	</div>
-<?php endif; ?>
+<?php endif;  ?>

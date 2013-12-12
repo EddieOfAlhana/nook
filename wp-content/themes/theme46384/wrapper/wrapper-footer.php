@@ -10,7 +10,7 @@
 
 <div class="span6">
     <div class="row" style="margin-top:5px;margin-right:0px;">
-	<div class="span6" data-motopress-type="static" data-motopress-static-file="static/static-footer-nav.php">
+	<div class="span6 footerNavSpan" data-motopress-type="static" data-motopress-static-file="static/static-footer-nav.php">
 		<?php get_template_part("static/static-footer-nav"); ?>
 	</div>
     </div>
